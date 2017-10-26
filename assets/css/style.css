@@ -1,0 +1,321 @@
+/******************HEAD****************/
+
+.wrapper {
+    overflow: hidden !important;
+    width: 100% !important;
+}
+
+.splashVideo {
+    overflow: hidden;
+    width: 100%;
+}
+
+#video-background {
+    /*  making the video fullscreen  */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+nav {
+    height: 80px;
+    background-color: #0f9d58 !important;
+}
+
+.n-logo {
+    width: 100px;
+    padding-top: 0%;
+}
+
+body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+    margin: 0 auto !important;
+
+}
+
+
+/**********ABOUT CONTENT SECTION*********/
+
+.benefits {
+    text-align: center;
+}
+
+.benefits .row h1,
+.press .row h1, .contact h1, .sectionDivider h1{
+    text-align: center;
+    background-color: #0f9d58;
+    padding-top: 4%;
+    border-width: 100%;
+    height: 150px;
+    color: white;
+
+}
+
+
+.section-about-us{
+    padding-top: 1% !important;
+    
+}
+.sectionDivider{
+    padding-bottom:10%;
+}
+
+.benefits .incentives {
+    text-align: ;
+    height: 300px;
+    width: 300px;
+    /*    border-radius: 50%;*/
+    background-color: blue;
+    margin-left: 0% !important;
+    color: white;
+}
+
+.benefits h6 {
+    text-align: center;
+    padding-top: 45% !important;
+    padding-bottom: 0% !important;
+    margin-bottom: 0% !important;
+    font-size: .9em !important;
+
+}
+
+.benefits .content {
+    height: 150px;
+    padding-top: 10%;
+
+
+}
+
+.incentives .content img {
+    width: 50%;
+    height: 75px;
+    z-index: 9999;
+
+}
+
+.benefits .row {
+    padding-bottom: 2%;
+}
+
+.section .container .row {
+    padding-top: 10%;
+}
+
+/********************SPONSORS AND HISTORY********************/
+
+.press {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.sponsors img {
+    padding: 5%;
+    height: 100px;
+    margin-top: 20%;
+
+
+}
+
+.sponsors {
+    height: 200px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+
+
+}
+
+.success {
+    text-align: center;
+}
+
+.success h1 {
+    font-weight: 400;
+}
+
+.success > .row > h1:nth-of-type(1) {
+    padding-bottom: 5%
+}
+
+.success > .row h3:nth-of-type(1) {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+ .imgContainer{
+            position: relative;
+            width:100%;
+        }
+        
+
+
+        .overlay{
+            position: absolute;
+            bottom:100%;
+            left:0;
+            right:0;
+            background-color: rgba(0,0,0,.5);
+            width:100%;
+            height:0;
+            visibility: hidden;
+            transition: .4s ease;
+
+        }
+        .imgContainer:hover .overlay{
+            bottom:0;
+            height:100%;
+            visibility: visible;
+        }
+        .text{
+            white-space: nowrap;
+            color:white;
+            font-weight:400;
+            font-size:14px;
+            position:absolute;
+            overflow: hidden;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
+
+/***************CONTACT***************************/
+textarea.form-control {
+    border: 1px solid #E3E3E3 !important;
+    border-radius: 10px !important;
+}
+.form-group{
+    padding-bottom:5%;
+}
+.contact{
+    padding-bottom:10%;
+    padding-top:10%;
+}
+.contact h1{
+    background-color:#0f9d58;
+    width:100%;
+    text-align: center;
+    font-weight:400;
+    color:white;
+    padding-bottom:10%;
+}
+
+
+.center-text {
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/****************FOOTER**************************/
+.preOrderImage{
+    height:500px;
+}
+footer {
+    background-color: #0f9d58 !important;
+    height: 100px;
+    padding-bottom: 0% !important;
+    margin-bottom: 0% !important;
+    padding: 0% !important;
+}
+
+footer nav {
+    height: 100px;
+
+}
+
+
+
+.mygrid-wrapper-div {
+    text-align: center;
+    overflow: scroll;
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+
+
+
+@media (min-width:1021px){
+    .section-about-us{
+        padding-top:1% !important;
+    }
+}
+@media(min-width:601px) and (max-width:1020px){
+    .section-about-us{
+        padding-top: 0% !important;
+    }
+}
+@media (max-width: 600px) {
+    .section-about-us{
+        padding-top:0% !important;
+    }
+    .sectionDivider h1:nth-of-type(1){
+        font-size:2em !important;
+    }
+    
+    h1{
+        font-size:2.5em !important;
+        height:100px !important;
+        padding-top: 6% !important;
+    }
+    .press {
+        display: none;
+    }
+}
+
+.success .row img {
+
+    height: 250px;
+    width: 100%;
+    position: relative;
+
+
+
+}
+
+.gradient {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffff7e+0,00a8c5+100 */
+    background: rgb(255, 255, 126);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(255, 255, 126, 1) 0%, rgba(0, 168, 197, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(255, 255, 126, 1) 0%, rgba(0, 168, 197, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(255, 255, 126, 1) 0%, rgba(0, 168, 197, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff7e', endColorstr='#00a8c5', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradient2 {
+    background: url(https://preview.ibb.co/bLQXO6/happy_Old_Couple1.png) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.preOrderImage {
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 100%;
+
+}
+
+
+.results_list {
+    list-style-type: none;
+}
